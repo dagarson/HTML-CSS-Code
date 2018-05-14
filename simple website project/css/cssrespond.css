@@ -1,0 +1,357 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* desktop view*/
+
+#container{
+	width: 900px;
+	
+}
+
+#left-column{
+	width: 507px;
+	float: left;
+	background-color: floralwhite;
+	font-size: 25px;
+}
+
+#right-column{
+	width: 392.6px;
+	float: right;
+	background-color: floralwhite;
+}
+
+body{
+	background-color: aqua;
+}
+
+#title{
+	text-align: center;
+	font-size: 46px;
+	color:blue;
+	background-image:url(../image/head.png);		/*no scaling to background image*/
+	height: 115px;
+	width: 900px;
+		
+}
+
+nav ul li {display:inline;   
+	margin:39px;
+	width:100px;
+	font-size: 25px;
+	color: cadetblue;
+		
+}
+
+nav a {background-color:cornflowerblue;
+color:black;
+}
+
+header{background-image: url(../image/header.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 120px;}
+
+
+.thumb{
+	height: 200%;
+	width: 350px;
+}
+
+.thumb2{
+		height: 215px;
+		width: 350px;
+}
+
+#main{background-color:floralwhite;
+		width: 85%;
+		margin-right: auto;
+		margin-left: auto;}
+
+#formc{float: right;
+		width: 450px}
+
+.sub{text-align: center;}
+
+#titlep{text-align: center;
+		font-size: 46px;}
+
+#Titlec{text-align: center;
+		font-size: 46px;
+		
+}
+#namecon{text-align: center;}
+#numcon{text-align: center;
+		font-style: italic;}
+#emcon{text-align: center;
+		font-style: italic;}
+
+#conpic{float: right;
+		height: 130px;
+		width: auto;}
+
+#titlecal{
+	text-align: center;
+	font-size: 46px;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+#table{
+
+	background-color:white;
+	width: 100%;
+	
+}
+
+th, td{
+	padding:10px;
+	font-size: 15px;
+}
+#calpic{width: 150px;
+		float: right;}
+
+.video{
+	position: relative;
+	
+}
+.video iframe{ width: 60%;
+			   height: 520px;
+}
+			
+	
+
+
+/*tablet*/
+
+	@media screen and (max-width : 959px)
+		
+{
+	body{background-color: aqua;}
+	
+	#container{
+		width: 100%;
+	}
+	
+	#left-column{
+		width: 45%;
+	font-size: 18px;
+	}
+	
+	#right-column{
+		width:30% 
+	}
+	
+	#title{
+	text-align: center;
+	font-size: 30px;
+	background-color: floralwhite;
+	width: 100%;
+}
+	
+.thumb{
+	height: 100%;
+	width: 100%;								/*Images float to right of container*/
+}
+	
+.thumb2{
+		height: 100%;
+	width: 100%;
+}
+	
+	nav ul li {display:inline;   
+	margin:9px;
+	width:100px;
+	font-size: 20px;
+	color: cadetblue;	
+}
+
+nav a {background-color:cornflowerblue;
+color:black;
+}
+	#main{background-color:floralwhite;
+	width: 74%;
+	margin-right: auto;
+	margin-left: auto;}
+	
+	#titlecal{
+	text-align: center;
+	font-size: 30px;
+		
+}
+	#calh3{
+		font-size: 15px;
+	}
+	
+	#calpic{width: 20%;
+		float: right;}
+	
+	#formc{float: right;
+		   width: 30%;}
+	
+	#fhe2{font-size: 20px;}
+	#fhe3{font-size: 20px;}
+	#fhe4{font-size: 20px;}
+	
+	#Titlec{text-align: center;
+		font-size: 32px;		
+}
+	#namecon{text-align: center;
+			font-size: 15px;}
+	
+#numcon{text-align: center;
+		font-style: italic;
+		font-size: 12px;}
+	
+#emcon{text-align: center;
+		font-style: italic;
+		font-size: 12px;}
+	
+	#conpic{float: right;
+		height: auto;
+		width: 19%;}
+	
+	#congil{font-size: 22px;}
+	#conkok{font-size: 22px;}
+	
+	table, th, td{
+	border: 1px solid black;
+}
+#table{
+
+	background-color:white;
+
+	
+}
+th, td{
+	padding:.5%;
+	font-size: 11px;
+	padding-right:.5px;
+	padding-top: 10px;
+}
+	.video{
+	position: relative;
+	
+}
+.video iframe{ width: 60%;
+			   height: 320px;
+}
+		
+}
+
+/*phone view*/
+
+@media screen and (max-width: 640px)
+{
+	
+#left-column{
+	width: 100%;
+	font-size: 16px;
+	}
+	
+#right-column{											/*Right column data goes under left column data*/
+	width:100% 
+	}	
+	
+.thumb{
+	height: 100%;											
+	width: 100%;
+}
+.thumb2{
+	height: 100%;
+	width: 100%;
+}
+	#title{
+	text-align: center;
+	font-size: 25px;
+	background-color: floralwhite;
+	width: 100%;
+}
+	
+nav ul li {display:block;  
+margin:6px;
+width:1000px;
+font-size: 20px;
+color: cadetblue;
+	
+	
+}
+
+nav a {background-color:floralwhite;
+color:black;
+}
+	
+	#main{background-color:floralwhite;
+		  width: 96%;
+		  margin-right: auto;
+		  margin-left: auto;}
+	
+	#titlecal{
+	font-size: 20px;
+}
+	
+	#calh3{
+		font-size: 12px;
+	}
+	
+	#calpic{width: 18%;
+		float: right;}
+		
+		#formc{float: right;
+		width: 20%;}
+	
+	.sub{text-align: left;}
+	
+	#fhe2{font-size: 18px;}
+	#fhe3{font-size: 18px;}
+	#fhe4{font-size: 18px;}
+	
+	#Titlec{text-align: left;
+		font-size: 24px;
+		
+}
+		#namecon{text-align: left;
+				font-size: 12px;}
+	
+#numcon{text-align: left;
+		font-style: italic;
+		font-size: 10px;}
+	
+#emcon{text-align: left;
+		font-style: italic;
+		font-size: 10px;}
+	
+	#conpic{float: right;
+		height: auto;
+		width: 14%;}
+	
+	#congil{font-size: 18px;}
+	#conkok{font-size: 18px;}
+	
+	table, th, td{
+	border: 1px solid black;
+}
+	
+#table{
+background-color:white;
+	
+}
+	
+th, td{
+	padding:0%;
+	font-size: 9px;
+	padding-right:0px;
+	padding-top: 5px;
+}
+	.video{
+	position: relative;
+	
+}
+.video iframe{ width: 40%;
+				height: 220px;
+}
+		
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>form</title>
+<link type="text/css" rel="stylesheet" href="css/cssrespond.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div id="main">
+<header></header>
+<div id="nav">
+	<nav>
+<ul>
+	<li><a href="http://classes.kvcc.edu/students/~dgarson3196/">Home</a></li>
+  <li><a href="http://classes.kvcc.edu/students/~dgarson3196/photo"> Gallery</a></li>
+  <li><a href="http://classes.kvcc.edu/students/~dgarson3196/form">Form</a></li>
+  <li><a href="http://classes.kvcc.edu/students/~dgarson3196/contact">Contact</a></li>
+	<li> <a href="http://classes.kvcc.edu/students/~dgarson3196/calendar"> Calendar</a></li>
+  </ul>
+  
+	</nav>
+	</div>
+	
+	<form action="http://webdevbasics.net/scripts/demo.php" method="post">
+ 
+ <h2 style="text-align: center">Survey</h2>
+  
+ <label for="user">Full Name:</label>						<img id="formc" src="image/car7.jpg" alt="car3">
+  <br>
+<input type="text" name="name" id="name" required="required">
+	
+	
+<br>
+
+<label for="phone">Phone number (secure):</label>
+<br>
+<input type="password" name="phone" id="pnumber" required="required">
+<br>
+
+<label for="email"> Email:</label><br>
+<input type="text" name="email" id="mail" required="required">
+<br>
+
+<label for="address">Number of car museum visits:</label><br>
+<input type="text" name="visits" id="#visits" required="required">
+
+<h2 id="fhe2">Which describes you </h2>
+<div class="data">								<!--Only One-->
+
+<input type="radio" name="describles you" id="learning" value="learning">
+<label for="facebook">I love classic cars and am interested in knowing more.</label>
+<br>
+<br>
+
+<input type="radio" name="describles you" id="learned" value="learned">
+<label for="Twitter">I have a lot of knowlege about classic cars and dont require any more.</label>
+<br>
+<br>
+
+<input type="radio" name="describles you" id="maybe" value="maybe">
+<label for="Instagram">I have no passion for classic cars but some more infomation couldnt hurt.</label>
+<br>
+<br>
+
+<input type="radio" name="describles you" id="no" value="no">
+<label for="other">I have no interest in learning more about classic cars.</label>
+<br>
+<br>
+
+<h2 id="fhe3">Select all  Social Media you use </h2>				<!-- All that apply-->
+
+<input type="checkbox" name="social media" id="facebook" value="facebook">
+<label for="ford">Facebook</label>
+
+<br>
+
+<input type="checkbox" name="social medi" id="twitter" value="twitter">
+<label for="chevorlet">Twitter</label>
+
+<br>
+
+<input type="checkbox" name="social media" id="instagram" value="instagram">
+<label for="mazda">Instagram</label>
+
+<br>
+
+<input type="checkbox" name="social media" id="snapchat" value="snapchat">
+<label for="toyota">Snapchat</label>
+
+<br>
+
+
+<input type="checkbox" name="social media" id="other_" value="other_">
+<label for="other">Others</label>
+
+<br>
+
+</div>
+
+<h2 id="fhe4">Select which day of the week you would go to a Museum</h2>
+
+<select size="7" name="Museum Day" id="muvday" multiple="multiple">
+<option value="Monday">Monday</option>
+<option value="Monday">Tuesday</option>
+<option value="Monday">Wednesday</option>
+<option value="Monday">Thursday</option>
+<option value="Monday">Friday</option>
+<option value="Monday">Saturday</option>
+<option value="Monday">Sunday</option></select>
+
+
+
+
+<div>
+<div class="sub">
+<input type="submit" value="Submit">
+<br>
+<br>
+<input type="reset" value="Reset">
+	</div>
+	<br>
+		</div>	
+	
+</form>
+	
+
+	</div>
+</body>
+</html>

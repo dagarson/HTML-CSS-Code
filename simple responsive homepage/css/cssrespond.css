@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* desktop view*/
+
+#container{
+	width: 900px;
+	
+}
+
+#left-column{
+	width: 507px;
+	float: left;
+	background-color: floralwhite;
+	font-size: 25px;
+}
+
+#right-column{
+	width: 392.6px;
+	float: right;
+	background-color: floralwhite;
+}
+
+body{
+	background-color: aqua;
+}
+
+#title{
+	text-align: center;
+	font-size: 46px;
+	color:blue;
+	background-image:url(../image/head.png);		/*no scaling to background image*/
+	height: 115px;
+	width: 900px;
+		
+}
+
+nav ul li {display:inline;   
+	margin:77px;
+	width:100px;
+	font-size: 25px;
+	color: cadetblue;
+		
+}
+
+nav a {background-color:floralwhite;
+color:black;
+}
+
+.thumb{
+	height: 200%;
+	width: 350px;
+}
+.thumb2{
+		height: 215px;
+	width: 350px;
+}
+
+/*tablet*/
+
+@media screen and (max-width: 959px){
+	
+	#container{
+		width: 100%;
+	}
+	
+	#left-column{
+		width: 45%;
+	font-size: 18px;
+	}
+	
+	#right-column{
+		width:30% 
+	}
+	
+	#title{
+	text-align: center;
+	font-size: 30px;
+	background-color: floralwhite;
+	width: 100%;
+}
+	
+.thumb{
+	height: 100%;
+	width: 100%;								/*Images float to right of container*/
+}
+.thumb2{
+		height: 100%;
+	width: 100%;
+}
+	
+	nav ul li {display:inline;   
+	margin:10px;
+	width:100px;
+	font-size: 20px;
+	color: cadetblue;	
+}
+
+nav a {background-color:floralwhite;
+color:black;
+}
+}
+
+/*phone view*/
+
+@media screen and (max-width: 640px)
+{
+#left-column{
+	width: 100%;
+	font-size: 16px;
+	}
+	
+#right-column{											/*Right column data goes under left column data*/
+	width:100% 
+	}	
+	
+.thumb{
+	height: 100%;											
+	width: 100%;
+}
+.thumb2{
+	height: 100%;
+	width: 100%;
+}
+	#title{
+	text-align: center;
+	font-size: 25px;
+	background-color: floralwhite;
+	width: 100%;
+}
+	
+nav ul li {display:block;  
+margin:10px;
+width:1000px;
+font-size: 20px;
+color: cadetblue;
+	
+	
+}
+
+nav a {background-color:floralwhite;
+color:black;
+}
+	
+}

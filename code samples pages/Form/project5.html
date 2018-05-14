@@ -1,0 +1,142 @@
+<!doctype html>
+<!--Daniel Garson-->
+<!--CIS 170-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>project5</title>
+<link href="../css/style.2css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	function showValue(newValue)
+	{
+		document.getElementById("range").innerHTML=newValue;
+	}
+	function spinnerValue(newValue)
+	{
+		Document.getElementById("number").innerHTML=newValue;
+	}
+	</script>
+</head>
+
+<body>
+<div id="main">
+	<header></header>
+	<!--#include file="header.shtml-->
+
+
+
+<form action="http://webdevbasics.net/scripts/demo.php" method="post">
+ 
+ <h2 style="text-align: center">Project 5 Form </h2>
+  
+ <label for="user">Username:</label>
+  <br>
+<input type="text" name="username" id="user" required="required">
+<br>
+
+<label for="phone">Phone number (secure):</label>
+<br>
+<input type="password" name="phone" id="pnumber" required="required">
+<br>
+
+<label for="email"> Email:</label><br>
+<input type="text" name="email" id="mail" required="required">
+<br>
+
+<label for="address">Address:</label><br>
+<input type="text" name="address" id="address" required="required">
+
+<h2>Select your Favorite Social Media</h2>
+<div class="data">								<!--Only One-->
+
+<input type="radio" name="Favorite social media" id="facebook" value="Facebook">
+<label for="facebook">Facebook</label>
+
+<br>
+
+<input type="radio" name="Favorite social media" id="twiiter" value="twitter">
+<label for="Twitter">Twitter</label>
+
+<br>
+
+<input type="radio" name="Favorite social media" id="instagram" value="instagram">
+<label for="Instagram">Instagram</label>
+
+<br>
+
+<input type="radio" name="Favorite social media" id="other" value="other">
+<label for="other">Other</label>
+
+<br>
+
+<h2>Select all  Car Brands you like </h2>				<!-- All that apply-->
+
+<input type="checkbox" name="car brand" id="ford" value="ford">
+<label for="ford">Ford</label>
+
+<br>
+
+<input type="checkbox" name="car brand" id="chevy" value="chevy">
+<label for="chevorlet">Chevrolet</label>
+
+<br>
+
+<input type="checkbox" name="car brand" id="mazda" value="mazda">
+<label for="mazda">Mazda</label>
+
+<br>
+
+<input type="checkbox" name="car brand" id="toyota" value="toyta">
+<label for="toyota">Toyota</label>
+
+<br>
+
+<input type="checkbox" name="car brand" id="suburu" value="suburu">
+<label for="suburu">Subaru</label>
+
+<br>
+
+<input type="checkbox" name="car brand" id="dodge" value="dodge">
+<label for="dodge">Dodge</label>
+
+<br>
+
+<input type="checkbox" name="car brand" id="other_" value="other_">
+<label for="other">Other Brand</label>
+
+<br>
+
+</div>
+
+<h2>Select your favorite day of the week</h2>
+
+<select size="7" name="Favorite Day" id="favday" multiple="multiple">
+<option value="Monday">Monday</option>
+<option value="Monday">Tuesday</option>
+<option value="Monday">Wednesday</option>
+<option value="Monday">Thursday</option>
+<option value="Monday">Friday</option>
+<option value="Monday">Saturday</option>
+<option value="Monday">Sunday</option></select>
+
+<br>
+
+<h2>Pick a number between 1 and 100</h2>
+<span id="range"></span>
+<input type="number" min="1" max="100" value="0" name="spinner" onChange="spunnerValue(this.value)">
+
+<br>
+
+<div class="sub">
+<input type="submit" value="Submit">
+<br>
+<br>
+<input type="reset" value="Reset">
+	</div>
+	<br>
+	
+</form>
+</div>
+</body>
+</html>

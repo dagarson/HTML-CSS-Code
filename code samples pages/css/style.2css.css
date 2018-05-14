@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+/* daniel garson*/ 
+/*cis 170 */
+
+header{background-image:url(../includes/background.jpg);
+background-size: 100% 100%;
+width: 100%;
+height: 120px;
+}
+nav ul li {display:inline;   
+	margin:38px;
+	width:100px;
+	font-size: 25px;
+	color: cadetblue;
+}
+nav a {background-color:cyan}
+
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	background-color:mediumblue;
+}
+
+
+#main{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:coral
+}
+
+
+
+
+  
+#title{text-align: center;
+color:dodgerblue;
+font-size: 50px;}
+
+ .thumb{float: left;    /*Image 1*/
+		width: 320px;    
+		height: 220px;
+}
+
+
+.thumb2{float: right;   /*Image 2*/
+		width: 250px;
+		height: 300px;
+}
+
+
+#footer{font-size: 12px;
+	text-align: center;
+	color:gray;
+}
+.thumb4{width: 30px;
+	}
+table, th, td{
+	border: 1px solid black;
+}
+
+#table{
+
+	background-color:white;   
+	        /* background color of tables*/
+	
+	
+}
+th, td{
+	padding:15px;
+}
+
+body{
+	
+	padding-right: 50px;
+	padding-top: 14px;
+	background-color:mediumblue;           /* background color of project */
+}
+#title{text-align:left;
+color:dodgerblue;
+font-size: 30px;}
+#table2{
+
+	background-color:white;
+	
+	
+}
+#title2{text-align: left;
+color: coral;
+font-size: 30px;}
+
+.sub {text-align: center;}
+#main3{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:coral
+}
+#slider{ width: 500px;
+	height: 300px;
+	
+}
